@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Singer choice")
+st.title("Singer choice") 
 if st.button("Playlist"):
     st.success("Your Playlist has started ")
 
@@ -26,3 +26,4 @@ if name :
 
 dob = st.date_input("Select you date of birth")
 st.write(f"Your Date of Birth {dob}")
+
